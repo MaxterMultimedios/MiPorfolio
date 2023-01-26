@@ -30,6 +30,7 @@ h1 {
 
 h2 {
     font-weight: bold;
+    color: rgb(86, 86, 87);
 }
 
 h3 {
@@ -216,6 +217,41 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contacto .container{
+    max-width: 800px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(102, 207, 202);
+    border-radius: 30px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
 }
 
 footer {
