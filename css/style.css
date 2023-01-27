@@ -268,7 +268,7 @@ footer {
 .footer-logo {
     height: 80px;
     width: 80px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .iconos-redes-sociales a {
@@ -297,10 +297,15 @@ footer {
     border: 1px solid white;
 }
 
-.iconos-redes-sociales i:hover {
+.iconos-redes-sociales a:hover i {
     color: white;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
+}
+
+.marca-registrada {
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
