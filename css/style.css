@@ -260,8 +260,47 @@ h3 {
 }
 
 footer {
-    height: 250px;
+    height: 300px;
     background-color: rgb(84, 85, 85);
+    font-weight: bold;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px 11px 4px;
+    margin: 10px;
+    border: 1px solid rgb(102, 207, 202);
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: rgb(102, 207, 202);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+    border: 1px solid white;
+}
+
+.iconos-redes-sociales i:hover {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
 }
 
 @media screen and (max-width: 767px) {
