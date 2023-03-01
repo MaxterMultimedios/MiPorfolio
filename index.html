@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Maxter Nultimedios">
+  <meta name="author" content="Maxter Multimedios">
   <meta name="description" content="Portfolio de desarrollo web y multimedios">
   <meta name="keywords" content="HTML, CSS, JavaScript, PHP, diesño de paginas webs, desarrollador">
 
@@ -14,15 +14,11 @@
   <link rel="stylesheet" href="css/style.css">  
   <link rel="shortcut icon" href="img/MaxterIcon.png" type="image/x-icon">
 
-  <title>Porfolio de Maxter - Desarrollo Web y Multimedios</title>
+  <title>Curriculum de Maxter - Desarrollador Web y Multimedios</title>
 
 </head>
 
 <body>
-
-  <div class="alert alert-warning" role="alert">
-    El siguiente portfolio se encuentra en desarrollo!
-  </div>
 
   <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container-fluid">
@@ -36,19 +32,19 @@
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Acerca de mí</a>
+            <a class="nav-link active" aria-current="page" href="#sobreMi">Acerca de mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos webs</a>
+            <a class="nav-link" href="#experiencia">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Multimedios</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonios</a>
+            <a class="nav-link" href="#testimonios">Testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -69,20 +65,21 @@
     </div>
   </section>
 
-  <section class="sobre-mi text-white">
+  <section id="sobreMi" class="sobre-mi text-white">
     <div>
-      <h2>Algo sobre mí</h2>
-      <p>" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. "</p>
+      <h2>Acerca de mí</h2>
+      <p>" Autodidacta al 100%, emprendedor y aprendiz. Enfrento con pasión y dedicación cada desafío, promoviendo así, mi crecimiento personal día a día. "</p>
     </div>
   </section>
 
-  <section class="experiencia text-secondary">
+  <section id="experiencia" class="experiencia text-secondary">
     <div class="container text-center">
       <h2 >Experiencia</h2>
+      <br>
       <div class="row">
         <div class="columna col-12 col-md-4">
           <h3>Desarrollo Frontend</h3>
-          <p>" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"</p>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum</p>
            <div class="badges-contenedor">
              <span class="badge text-bg-secondary">HTML</span>
              <span class="badge text-bg-secondary">CSS</span>
@@ -92,29 +89,29 @@
         </div>
         <div class="columna col-12 col-md-4">
           <h3>Desarrollo Backend</h3>
-          <p>" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"</p>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum</p>
           <div class="badges-contenedor">
-            <span class="badge text-bg-secondary">HTML</span>
-            <span class="badge text-bg-secondary">CSS</span>
+            <span class="badge text-bg-secondary">PHP</span>
+            <span class="badge text-bg-secondary">Python</span>
             <span class="badge text-bg-secondary">Javascript</span>
-            <span class="badge text-bg-secondary">Bootstrap</span>
+            <span class="badge text-bg-secondary">MySql</span>
           </div>
         </div>
         <div class="columna col-12 col-md-4">
-          <h3>Capacitación</h3>
-          <p>" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"</p>
+          <h3>Mis Herramientas</h3>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33</p>
           <div class="badges-contenedor">
-            <span class="badge text-bg-secondary">HTML</span>
-            <span class="badge text-bg-secondary">CSS</span>
-            <span class="badge text-bg-secondary">Javascript</span>
-            <span class="badge text-bg-secondary">Bootstrap</span>
+            <span class="badge text-bg-secondary">Photoshop</span>
+            <span class="badge text-bg-secondary">Dreamweaver</span>
+            <span class="badge text-bg-secondary">Visual Studio Code</span>
+            <span class="badge text-bg-secondary">Workbench</span>
           </div>
         </div>
       </div>
    </div>
   </section>
 
-  <section class= "proyectos-recientes d-flex flex-column text-center">
+  <section id="proyectos" class= "proyectos-recientes d-flex flex-column text-center">
     <h2 class="text-white">Proyectos</h2>
     <h4>(Proyectos a desarrollar o en etapa de desarrollo)</h4>
     <div class="container text-center proyecto-contenedor">
@@ -128,9 +125,6 @@
              <div class="iconos-contenedor">
               <a href="https://github.com/" target="blank" rel="noopener noreferrer">
                 <i class="bi bi-github"></i>
-              </a>
-              <a href="https://github.com/" target="blank" rel="noopener noreferrer">
-                <i class="bi bi-laptop"></i>
               </a>
              </div>
            </div>
@@ -146,9 +140,6 @@
               <a href="https://github.com/" target="blank" rel="noopener noreferrer">
                 <i class="bi bi-github"></i>
               </a>
-              <a href="https://github.com/" target="blank" rel="noopener noreferrer">
-                <i class="bi bi-laptop"></i>
-              </a>
              </div>
            </div>
           </div>
@@ -163,9 +154,6 @@
               <a href="https://github.com/" target="blank" rel="noopener noreferrer">
                 <i class="bi bi-github"></i>
               </a>
-              <a href="https://github.com/" target="blank" rel="noopener noreferrer">
-                <i class="bi bi-laptop"></i>
-              </a>
              </div>
            </div>
           </div>
@@ -175,7 +163,7 @@
     </div>
   </section>
   
-  <section class="testimonios">
+  <section id="testimonios" class="testimonios">
     <h2>Testimonios</h2>
     <h4>Algunos testimonios</h4>
     <div id="testimonios-carrusel" class="carousel carousel-dark slide">
@@ -197,7 +185,7 @@
                from the 1914 translation by H. Rackham."</p>
             <div class="testimonio-info">
               <p class="cliente">Natalia</p>
-              <p class="cargo">Gastromómica</p>
+              <p class="cargo">Gastronómica</p>
             </div>
           </div>
         </div>
@@ -223,7 +211,7 @@
     </div>
   </section>
 
-  <section class="contacto">
+  <section id="contacto" class="contacto">
     <div class="container"> 
       <div class="container rectangulo text-center d-flex justify-content-evenly">
         <div class="row">
@@ -270,6 +258,7 @@
   </footer>
 
   <script src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

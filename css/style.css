@@ -1,17 +1,6 @@
-.alert {
-    padding: 5px 0 5px 0;
-    margin: auto;
-    text-align: center;
-}
-
-.navbar {
-    padding: 2px;
-    background-color: rgb(102, 207, 202);
-}
-
-.navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+/*** GENERALES ***/
+body {
+    background-color: rgb(245, 247, 247);
 }
 
 section {
@@ -38,6 +27,23 @@ h3 {
     margin: 10px 0;
 }
 
+/*** NAVEGACION ***/
+
+.navbar {
+    padding: 2px;
+    background-color: rgb(102, 207, 202);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*** HERO ***/
+
 .hero img {
     width: 230px;
     height: 230px;
@@ -45,13 +51,13 @@ h3 {
 }
 
 .hero {
-    background-color: rgb(244, 252, 252);
     min-height: 420px;
     text-align: center;
 }
  
 .hero-principal {
     padding: 5px;
+    margin-top: 70px;
 }
 
 .hero-imagen-desarrollador {
@@ -67,6 +73,8 @@ h3 {
     margin-top: 10px;
 }
 
+/*** SOBRE MI ***/
+
 .sobre-mi {
     background-color: rgb(102, 207, 202);
     max-width: 800px;
@@ -81,6 +89,8 @@ h3 {
     font-size: 1.3rem;
     margin-top: 20px 30px;
 }
+
+/*** EXPREIENCIA ***/
 
 .experiencia {
     padding: 70px 50px;
@@ -111,6 +121,8 @@ h3 {
 .badges {
     margin: 5px;
 }
+
+/*** PROYECTOS ***/
 
 .proyectos-recientes {
     padding: 60px 0 70px 0;
@@ -152,15 +164,11 @@ h3 {
 }
 
 .proyecto:hover img {
-    opacity: 0.8;
-}
-
-.proyecto:hover .overlay {
     opacity: 1;
 }
 
-.overlay .iconos-contenedor {
-    display: flex;
+.proyecto:hover .overlay {
+    opacity: 0.8;
 }
 
 .overlay i {
@@ -168,6 +176,8 @@ h3 {
     font-size: 40px;
     margin: 10px;
 }
+
+/*** TESTIMONIOS ***/
 
 .testimonios {
     padding: 70px 40px 50px 40px;
@@ -220,6 +230,8 @@ h3 {
     justify-content: center;
 }
 
+/*** CONTACTO ***/
+
 .contacto .container{
     max-width: 800px;
     min-height: 200px;
@@ -257,8 +269,10 @@ h3 {
 .contacto button:hover {
     color: rgb(102, 207, 202);
     background-color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
+
+/*** FOOTER ***/
 
 footer {
     background-color: rgb(84, 85, 85);
@@ -307,6 +321,8 @@ footer {
     margin-top: 30px;
     padding-bottom: 30px;
 }
+
+/*** RESPONSIVE ***/
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
